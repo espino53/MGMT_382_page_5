@@ -1,8 +1,6 @@
 <html>
 <style>	
-
-
- div.absolute6 {
+div.absolute6 {
   position: relative;
   display:flex
   align-items:center;
@@ -18,8 +16,34 @@
   margin: 0;
   color:#4682B4;
   background-color: #f0f8ff;
-  display: block;
  }
+ 
+   div.title {
+  position: relative;
+  display:flex
+  align-items:center;
+  justify-items:center;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 5%;
+  border-top: 3px solid #4682B4;
+  overflow:visible;
+  padding: 0;
+  margin: 0;
+  color:#4682B4;
+  background-color: #f0f8ff;
+ }
+ 
+   div.absolute12 {
+  position: relative;
+  width: 100%;
+  height:auto;
+  overflow:visible;
+  padding: 0;
+  margin: 0;
+  display: block;
+ } 
  
  div.absolute7 {
   position: relative;
@@ -57,16 +81,6 @@
   border-bottom: 3px solid #4682B4;
  }
   
-   div.absolute12 {
-  position: relative;
-  width: 100%;
-  height:auto;
-  border-bottom: 3px solid #4682B4;
-  overflow:visible;
-  padding: 0;
-  margin: 0;
-  display: block;
- }
  
      div.email {
   position: absolute;
@@ -76,11 +90,9 @@
   top: 30%;
   width: 30%;
   left: 62%;
-  height:auto%;
-  border-bottom: 3px solid #4682B4;
+  height:auto;
   overflow:visible;
-  padding: 0;
-  margin: 0;
+  margin: 1%;
  }
  
     div.update {
@@ -89,28 +101,26 @@
   align-items:center;
   justify-items:center;
   width: 30%;
-  left: 31%;
+  left: 30%;
   height:auto;
-  border: 3px solid #4682B4;
+  border-left: 3px solid #4682B4;
+  border-right: 3px solid #4682B4;
   overflow:visible;
   padding: 0;
   margin: 0;
   display: block;
  }
  
-    div.download {
+     div.download {
   position: absolute;
-    display:flex
+   display:flex
   align-items:center;
   justify-items:center;
-  top:30%;
-  width: 30%;
-  height:auto%;
-  border-bottom: 3px solid #4682B4;
-  top:10;
+  top: 30%;
+  width: 25%;
+  height:auto;
   overflow:visible;
-  padding: 0;
-  margin: 0;
+  margin: 1%;
  }
  
  <script>
@@ -121,7 +131,7 @@ document.getElementById("timer").innerHTML = text;
 </style>
 <body style="background-color:#f0f8ff;">
 	
-	<H1 style="font-family:Garamond, serif;color:#4682B4"; >Eloheh Patient Testimonials</H1>
+	<div class="title"><H1 style="font-family:Garamond, serif;color:#4682B4"; ><u>Eloheh Patient Testimonials</u></H1></div>
 	<div class="absolute6">
 		<div class="absolute7">
 		<iframe width="100%" height="100%"; src="testimonial_1/page.html" style="border:none;"></iframe> 
