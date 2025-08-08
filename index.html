@@ -11,7 +11,8 @@
   left: 0%;
   width: 100%;
   height: 90%;
-  border: 3px solid #73AD21;
+  border-bottom: 3px solid #4682B4;
+  border-top: 3px solid #4682B4;
   overflow:scroll;
   padding: 0;
   margin: 0;
@@ -29,34 +30,8 @@
   padding: 0;
   margin: 0;
   display: block;
+  border-bottom: 3px solid #4682B4;
  }
-  
-   div.absolute12 {
-  position: relative;
-  width: 100%;
-  height:auto;
-  border: 3px solid #73AD21;
-  overflow:visible;
-  padding: 0;
-  margin: 0;
-  display: block;
- }
- 
-     div.email {
-  position: absolute;
-  display:flex
-  align-items:flex-end;
-  justify-items:flex-end;
-  width: 30%;
-  left: 62%;
-  height:auto;
-  border: 3px solid #73AD21;
-  overflow:visible;
-  padding: 0;
-  margin: 0;
-  display: block;
- }
-
  
   div.list_holder {
   position: relative;
@@ -67,7 +42,7 @@
   padding: 0;
   margin: 0;
   display: block;
-  border: 3px solid #73AD21;
+ 
  }
  
    div.lists {
@@ -79,18 +54,44 @@
   padding: 0;
   margin: 0;
   display: block;
-  border: 3px solid #73AD21;
+  border-bottom: 3px solid #4682B4;
  }
   
+   div.absolute12 {
+  position: relative;
+  width: 100%;
+  height:auto;
+  border-bottom: 3px solid #4682B4;
+  overflow:visible;
+  padding: 0;
+  margin: 0;
+  display: block;
+ }
+ 
+     div.email {
+  position: absolute;
+   display:flex
+  align-items:center;
+  justify-items:center;
+  top: 30%;
+  width: 30%;
+  left: 62%;
+  height:auto%;
+  border-bottom: 3px solid #4682B4;
+  overflow:visible;
+  padding: 0;
+  margin: 0;
+ }
+ 
     div.update {
   position: absolute;
-  display:flex
+    display:flex
   align-items:center;
   justify-items:center;
   width: 30%;
   left: 31%;
   height:auto;
-  border: 3px solid #73AD21;
+  border: 3px solid #4682B4;
   overflow:visible;
   padding: 0;
   margin: 0;
@@ -99,13 +100,17 @@
  
     div.download {
   position: absolute;
+    display:flex
+  align-items:center;
+  justify-items:center;
+  top:30%;
   width: 30%;
-  height:auto;
-  border: 3px solid #73AD21;
+  height:auto%;
+  border-bottom: 3px solid #4682B4;
+  top:10;
   overflow:visible;
   padding: 0;
   margin: 0;
-  display: block;
  }
  
  <script>
